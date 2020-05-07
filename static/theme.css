@@ -16,7 +16,7 @@ p, a {
   background: #000000; }
 
 .pusher {
-  background-image: url("website/landing-hero.jpg");
+  background-image: url("website/landing/landing-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 !important;

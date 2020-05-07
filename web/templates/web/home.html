@@ -6,7 +6,7 @@
 <!-- {% load static %} -->
 {% load sass_tags %}
 
-  <div class="pusher">
+  <div class="pusher" background-image="{% static 'website/landing/landing-hero.jpg' %}">
     {% include 'web/_nav.html' %}
     <div class="ui container header hero">
       <div class="ui text container center aligned">
@@ -17,7 +17,7 @@
       </div>
     </div>
   </div>
-
+  <br>
   <div class="ui vertical container">
       <div class="ui vertical stripe segment">
         <h3 class="ui header horizontal divider">Featured Tools</h3>
@@ -25,7 +25,7 @@
           <a href="{% url 'web:project_detail' 1%}" class="item">
             <div class="ui card">
               <div class="content">
-                <img class="visualization_thumb" width="100%" src="{% static 'website/visualization_tool_thumb.png' %}" alt="Thumbnail of CIO4Good visualization">
+                <img class="visualization_thumb" width="100%" src="{% static 'website/landing/visualization-tool-thumb.png' %}" alt="Thumbnail of CIO4Good visualization">
                 <h4>CIO4Good Visualizations</h4>
               </div>
             </div>
